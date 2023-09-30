@@ -26,14 +26,14 @@ export default class WeatherIcon extends Component {
     "50n": "FOG"
   };
 
-//   render() {
-//     return (
-//       <ReactAnimatedWeather
-//         icon={this.iconMatching[this.props.iconName]}
-//         color="#000"
-//         size={38}
-//         animate={true}
-//       />
-//     );
-//   }
+  render() {
+    return (
+      <ReactAnimatedWeather
+        icon={this.iconMatching[this.props.iconName]}
+        color="#000"
+        size={38}
+        animate={true}
+      />
+    );
+  }
  };
